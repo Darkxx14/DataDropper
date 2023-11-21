@@ -39,9 +39,8 @@ public class HelpCommand implements CommandExecutor {
         return true;
     }
 
-    // Function to center-align text for chat display
     private String centerText(String text) {
-        int maxWidth = 40; // Adjust the width as needed
+        int maxWidth = 40;
         int spaces = (maxWidth - text.length()) / 2;
         return " ".repeat(Math.max(0, spaces)) + text;
     }
