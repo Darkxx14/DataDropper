@@ -1,0 +1,25 @@
+name: DataDropper
+version: '1'
+main: xyris.darkxx.DataDropper.DataDropper
+api-version: '1.19'
+author: Darkxx
+website: https://darkxx.xyz
+commands:
+  filedownload:
+    description: Downloads a file from a URL
+    aliases: [fdw, fd, downloadfile]
+    permission: dd.filedownload
+  unarchive:
+    description: UnArchives ZIP / TAR.GZ file's
+    aliases: [unarch, unarc]
+    permission: dd.unarchive
+  ddhelp:
+    description: Help Command '(;'
+
+permissions:
+  dd.filedownload:
+    description: Allows players to download files from a URL
+    default: op
+  dd.unarchive:
+    description: Allows players to UnArchive files
+    default: op
