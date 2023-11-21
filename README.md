@@ -18,7 +18,7 @@ Here are some handy tips for downloading files to your server without consuming 
 
 
 - **Command for unarchiving:**
-- 
+
 - **Permission Requirements:**
     - Ensure you have the necessary permissions:
         - You need to be either an OP or have the permission "dd.unarchive," or execute this as console.
